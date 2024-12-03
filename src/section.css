@@ -1,0 +1,239 @@
+/* Container Styling */
+@import url(https://db.onlinewebfonts.com/c/19b8f54eb1f074fb01efb1c4f02e9623?family=AvertaStd-Regular);
+
+
+.artpreneur-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Center content horizontally */
+  justify-content: flex-start; /* Center content vertically */
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "AvertaStd-Regular";
+  line-height: 1.6;
+  color: #333;
+  text-align: start;
+}
+.stiky {
+  position: sticky;
+  top: 0;
+  height: 100vh; 
+  overflow-y: auto; 
+  padding: 15px; 
+}
+.left-sec {
+  background-color: white;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  border: 1px solid #DFDBD1;
+  padding: 5%;
+  border-radius: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-sec h2{
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  padding: 5%;
+}
+
+.left-sec h2 span{
+  padding-right: 5%;
+}
+
+.list-side{
+  margin-left: 12%;
+  border-left: 2px solid #DFDBD1;
+}
+
+.list-side li{
+  list-style: none;
+  padding-left: 5%;
+  line-height: 40px;
+  color: #1B1B1B;
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+.left-sec button{
+  margin-top: 10%;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 50px;
+  padding:2%;
+  border-radius:5px;
+  border: 1px solid black;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.right-col {
+  overflow-y: auto;
+ 
+}
+/* Overview Section */
+.overview {
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Description */
+.description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+  text-align: start;
+}
+
+/* Skills Section */
+.skills-section {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.skills-section h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center; /* Center badges horizontally */
+}
+
+.skill-badge {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #5a5a5a;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: #f8f9fa;
+}
+
+/* Prerequisites Section */
+.prerequisites {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.prerequisites h6 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Level Section */
+.level {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.level h6 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sections-row {
+  display: flex;
+  justify-content: space-between; /* Distribute space between items */
+  margin-top: 20px; /* Optional: Add some space above the row */
+}
+
+.skills-section, .prerequisites, .level {
+  display: flex;
+  margin-right: 10px; /* Add space to the right of each section */
+}
+
+/* Remove the margin from the last item to avoid extra space */
+.level {
+  margin-right: 0; /* No margin on the last item */
+}
+
+.faq-section {
+  margin: 20px auto;
+  max-width: 800px; /* Adjust this to control the overall width */
+  width: 100%; /* Makes it responsive */
+}
+
+.faq-item {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.faq-item.expanded {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555555;
+}
+
+.faq-icon {
+  font-size: 20px;
+  font-weight: bold;
+  color: #999999;
+  transition: transform 0.3s ease;
+}
+
+.faq-item.expanded .faq-icon {
+  transform: rotate(90deg);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .artpreneur-container{
+    width: 100% !important;
+  }
+  .artpreneur-container .left-sec {
+    padding: 0;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+  .left-sec button{
+    width: 100% !important;
+  }
+  .right-col{
+    display: none;
+  }
+
+  .stiky {
+
+    overflow-y: auto; 
+  }
+}
