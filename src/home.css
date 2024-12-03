@@ -1,0 +1,180 @@
+@import url(https://db.onlinewebfonts.com/c/19b8f54eb1f074fb01efb1c4f02e9623?family=AvertaStd-Regular);
+
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  font-family: "AvertaStd-Regular";
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  width: 20%;
+}
+
+.header {
+  display: flex;
+  background: #17177b;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: transparent;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav a {
+  margin: 0 1rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.get-in-touch-btn {
+  background-color: #ffffff;
+  color: #1a1a3b;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.App {
+  background-color: #17101B;
+  color: #efeef0;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  background-color: #17101B; /* Set background color here */
+}
+
+.CourseTitle1{
+  font-family: "AvertaStd-Regular";
+}
+
+.CourseTitle2{
+  font-family: "AvertaStd-Regular";
+  font-size: 30;
+}
+
+.lead{
+  font-family: "AvertaStd-Regular";
+}
+
+.Course3{
+  font-family: "AvertaStd-Regular";
+}
+
+.tagline {
+  color: #e63946;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.students-info {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.students-info span{
+  margin-left: -4%;
+}
+
+.avatars .avatar {
+  width: 2rem;
+  height: 2rem;
+  background: #aaa;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.avatars .sid-1{
+   margin-left: -12%;
+}
+.description {
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.btnGetIn {
+  background-color: white;
+  border: none;
+}
+
+.cta-btn {
+  background-color: #FFFFFF;
+  color: #17101B;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+.cta-btn:hover {
+  background-color: #f4f2f2;
+  color: #17101B;
+  }
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.navbar {
+  background-color: #17101B; /* Set navbar background color here */
+}
+
+
+@media (min-width: 1281px) {
+
+  /* //CSS */
+
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* //CSS */
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* //CSS */
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* //CSS */
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
